@@ -30,6 +30,13 @@ desktop.ini
 # Large compressed files (use cloud storage)
 *.gz
 
+# Raw CSV datasets (excluded from repository; keep only summaries)
+*.csv
+
+# Exclude raw data folders (uncomment to ignore the raw directories)
+accepted_2007_to_2018q4.csv/
+rejected_2007_to_2018q4.csv/
+
 # Optional: Exclude very large raw data files if you prefer cloud storage
 # Uncomment these lines if you want to store raw CSVs elsewhere:
 # accepted_2007_to_2018q4.csv/
