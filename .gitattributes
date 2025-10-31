@@ -1,0 +1,15 @@
+# Git LFS tracking for large files
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
+# Large data files
+financial_analysis_results/* filter=lfs diff=lfs merge=lfs -text
+# Ensure text files are handled properly
+*.md text
+*.txt text
+*.py text
+*.ps1 text
+*.yml text
+*.yaml text
+*.json text=auto
+*.gz filter=lfs diff=lfs merge=lfs -text

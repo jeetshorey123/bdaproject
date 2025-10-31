@@ -1,0 +1,36 @@
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+desktop.ini
+
+# Log files
+*.log
+
+# Large compressed files (use cloud storage)
+*.gz
+
+# Optional: Exclude very large raw data files if you prefer cloud storage
+# Uncomment these lines if you want to store raw CSVs elsewhere:
+# accepted_2007_to_2018q4.csv/
+# rejected_2007_to_2018q4.csv/
